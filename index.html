@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja" >
+<head>
+  <meta charset="utf-8" />
+  <title>midi test</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="midi.js#2"></script>
+  <script >
+  $(document).ready( function() {
+      $("#button1").click(function(){
+          sendMiddleC(0);
+      });
+  });
+  </script>
+
+
+</head>
+<body>
+  <h1>Web midi test</h1>
+  <input id="button1" type="button" value="on">
+</body>
+</html>
